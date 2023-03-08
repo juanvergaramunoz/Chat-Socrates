@@ -1,0 +1,9 @@
+name: run-socrates-app
+run-name: ${{ github.actor }} is setting up the Socrates Web App
+metadata:
+  template: flask-postgresql-sample-app@0.0.1-beta
+services:
+  web:
+    project: .
+    language: py
+    host: appservice
