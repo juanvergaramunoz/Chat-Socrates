@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'SocratesApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C7D4246B512B430DA401F221723B2B4B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BC837909B3A94DBABCA06B5D0ED917CF }}
